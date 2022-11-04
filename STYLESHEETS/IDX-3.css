@@ -1,7 +1,9 @@
 body{
     background-color: black;
-    font: 16px verdana 'sans serif';
+    font-size: 16px;
+    font-family: 'Lucida Sans';
     color: white;
+    margin: 0;
 }
 a{
     color: inherit;
@@ -50,20 +52,18 @@ h5{
 
 /* SECTION AREA */
 
- /*section{
+section{
    margin: 30px auto; 
 }
-*/
-.movie-section{
-    padding: 10px 30px;
-    justify-content: center;
-}
+
+
 .movie-link{
     border: 1px solid whitesmoke;
-   /* padding: 30px; */
+    padding: 10px;
 }
 .movie-thumbnail{
     border: 1px solid whitesmoke;
+    margin: 8px 10px;
 }
 .seemore{
     color: rgb(215, 142, 8);
