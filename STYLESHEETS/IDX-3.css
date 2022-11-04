@@ -55,8 +55,7 @@ section{
 }
 .movie-section{
     padding: 10px 30px;
-    display: flex;
-    flex-wrap: wrap;
+   
     justify-content: center;
 }
 .movie-link{
@@ -64,7 +63,6 @@ section{
 }
 .movie-thumbnail{
     margin: 0;
-    transition: w;
 }
 .seemore{
     color: rgb(215, 142, 8);
@@ -90,10 +88,6 @@ footer a:hover{
 /* FOOTER AREA*/
 
 @media only screen and ( min-width: 768px ){
-    .movie-section{
-        flex-wrap: nowrap;
-        justify-content: left;
-    }
     .nav-form{
         right: 0;
         position: absolute;
