@@ -13,9 +13,9 @@ a:hover{
     color: inherit;
     text-decoration: inherit;
 }
-.wrapper{
+/*.wrapper {
     padding: 10px;
-}
+}*/
 
 /* HEADER AREA */
 .logo{
@@ -53,14 +53,20 @@ h5{
 /* SECTION AREA */
 
 section{
-   margin: 30px auto; 
+ /*  margin: 30px auto; */
 }
 
 
-.movie-link{
+/*.movie-link{
     border: 1px solid whitesmoke;
     padding: 10px;
+}*/
+
+.movie-section{
+    width: 100%;
+    /*display: flexbox;*/
 }
+
 .movie-thumbnail{
     border: 1px solid whitesmoke;
     margin: 8px 10px;
