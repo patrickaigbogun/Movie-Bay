@@ -74,17 +74,20 @@ h5{
     width: 100%;
     transition: transform 450ms;
     max-height: 100%;
-    
 }
 
 
 .movie-section::-webkit-scrollbar{
     display: none;
 }
+.movie-section{
+    -ms-overflow-style: none;  /*IE and Edge */ 
+    scrollbar-width: none;  /*Firefox */ 
+ } 
 .movie-thumbnail:hover{
     transform: scale(1.08);
 }
-.movie-thumbnail:focus{
+.movie-thumbnail:active{
     transform: scale(1.08);
 }
 
